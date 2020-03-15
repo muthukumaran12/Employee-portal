@@ -1,0 +1,34 @@
+<div class="container">
+    <a class="link" routerLink="/registration">Back To Employee Registration</a>
+  <h1>Registered Employee Details</h1>
+  <table class="table table-bordered table-inverse">
+    <tr>
+      <th>Employee Id</th>
+      <th>FirstName</th>
+      <th>LastName</th>
+      <th>Gender</th>
+      <th>DateOfBirth</th>
+      <th>Department</th>
+    </tr>
+    <tr *ngFor="let employee of employeelist">
+      <td>
+        {{employee.id}}
+      </td>
+      <td>
+        {{employee.firstName}}
+      </td>
+      <td>
+        {{employee.lastName}}
+      </td>
+      <td>
+        {{employee.gender}}
+      </td>
+      <td>
+        {{employee.dateOfBirth}}
+      </td> 
+      <td>
+        {{employee.department}}
+      </td> 
+    </tr>
+  </table>
+</div>
