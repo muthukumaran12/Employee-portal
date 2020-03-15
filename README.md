@@ -14,7 +14,8 @@ RestController,
 Swagger,
 Use of data jpa,
 H2 Database,
-Unit testing using junit and mockito,
+Unit testing using junit and mockito
+
 Frontend side
 
 Angular2 Components
