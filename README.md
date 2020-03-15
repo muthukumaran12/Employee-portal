@@ -36,9 +36,9 @@ Use spring initializer to use spring boot template with dependencies
 
 Frontend
 
-Clone project, Open cmd or Node js Command prompt
-npm install -g angular-cli to install angular 2 cli ( globally )
-npm install to install Node packages,
+Clone project, Open cmd or Node js Command prompt 
+npm install -g angular-cli to install angular 2 cli ( globally ) 
+npm install to install Node packages
 
 How to Run
 
