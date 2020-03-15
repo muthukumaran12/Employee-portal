@@ -6,37 +6,41 @@ Here you can see following things.
 
 Server Side
 
-SpringBoot
-Maven 3+
-JAVA 8
-Spring MVC architecture
-RestController
-Swagger
-Use of data jpa
-H2 Database
-Unit testing using junit and mockito
+SpringBoot,
+Maven 3+,
+JAVA 8,
+Spring MVC architecture,
+RestController,
+Swagger,
+Use of data jpa,
+H2 Database,
+Unit testing using junit and mockito,
 Frontend side
 
 Angular2 Components
 
-Modal
-CRUD Functionality (Create, Read(view/display))
-Single Page Application
-Routing | Router outlet | Router
+Modal,
+CRUD Functionality (Create, Read(view/display)),
+Single Page Application,
+Routing | Router outlet | Router,
 Stunning UI with bootstrap
 
 How to Setup this project
 
 Backend
 
-Maven 3+
-Java 8
+Maven 3+,
+Java 8,
 Use spring initializer to use spring boot template with dependencies
+
 Frontend
+
 Clone project, Open cmd or Node js Command prompt
 npm install -g angular-cli to install angular 2 cli ( globally )
-npm install to install Node packages
+npm install to install Node packages,
+
 How to Run
+
 Backend
 mvn clean install to clean if exists files and install packages
 mvn spring-boot:run to start spring boot
@@ -57,15 +61,7 @@ Again right click on project, Find Maven > in options, Click on Update project c
 Now you can refresh your project. Run clean and build project.
 Main Important step > Right click on project > Run as > Maven Install This step will install required dependency specified in [pom.xml]
 
-You may have question that how this was generated ? If you observed libraries (Dependencies) in pom.xml ,
-
-<dependency>
-	<groupId>com.h2database</groupId>
-	<artifactId>h2</artifactId>
-	<scope>runtime</scope>
-</dependency>
-
-You need to know more about H2 Database. H2 is a relational database management system written in Java. It can be embedded in Java applications or run in the client-server mode.
+H2 is a relational database management system written in Java. It can be embedded in Java applications or run in the client-server mode.
 
 Very fast, open source, JDBC API
 Embedded and server modes; in-memory databases (Simple meaning => data will not persist on the disk)
